@@ -1,5 +1,10 @@
 # 基于Transformer的无人机图像特征提取
 
+| 课设成员 | 贡献 |
+|------|----|
+| 王建辉  | A  |
+|李劲陶|A|
+
 ## 项目概述
 
 - **目标**: 使用ViT对无人机图像中的目标区域进行全局特征提取
@@ -13,8 +18,7 @@
 PythonProject1/
 ├── main2.py              # 主程序：完整的特征提取和分析
 ├── demo.py               # 演示程序：简化的特征提取示例
-├── requirements.txt      # 依赖包列表
-├── README.md            # 项目说明
+├── README.md            # 项目设计文档
 ├── dataset/             # 数据集目录
 │   ├── images/          # 无人机图像
 │   └── annotations/     # 标注文件
@@ -108,7 +112,6 @@ x,y,w,h,score,object_category,truncation,occlusion
    - 类别间相似性数值分析
 
 ## 性能指标
-
 - **特征维度**: 768维
 - **处理速度**: CPU模式下每张图像约1-2秒
 - **内存占用**: 模型加载约400MB
